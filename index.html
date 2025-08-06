@@ -19,6 +19,7 @@
             line-height: 1.6;
             color: #1a1a1a;
             background-color: #ffffff;
+            padding-bottom: 80px;
         }
 
         .container {
@@ -28,7 +29,7 @@
         }
 
         header {
-            padding: 60px 0 40px;
+            padding: 40px 0 30px;
             border-bottom: 1px solid #f0f0f0;
         }
 
@@ -141,6 +142,37 @@
                 height: 338px;
             }
         }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 20px 0;
+            background-color: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-top: 1px solid #f0f0f0;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .social-link {
+            font-size: 12px;
+            color: #666;
+            text-decoration: none;
+            font-weight: 400;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+
+        .social-link:hover {
+            color: #1a1a1a;
+        }
     </style>
 </head>
 <body>
@@ -182,6 +214,13 @@
                 </div>
             </div>
         </main>
+
+        <footer>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/dohyun11111m/" class="social-link" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/?hl=ko" class="social-link" target="_blank">Instagram</a>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
