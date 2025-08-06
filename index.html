@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dohyun Im</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background-color: #ffffff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        header {
+            padding: 60px 0 40px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 300;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #1a1a1a;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+            min-height: 80vh;
+            padding: 80px 0;
+        }
+
+        .content {
+            max-width: 500px;
+        }
+
+        .name {
+            font-size: 40px;
+            font-weight: 300;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            letter-spacing: -1px;
+        }
+
+        .title {
+            font-size: 16px;
+            font-weight: 400;
+            color: #666;
+            margin-bottom: 40px;
+            letter-spacing: 0.5px;
+        }
+
+        .description {
+            font-size: 14px;
+            line-height: 1.8;
+            color: #4a4a4a;
+            margin-bottom: 50px;
+            font-weight: 300;
+        }
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .contact-item {
+            font-size: 12px;
+            color: #666;
+            text-decoration: none;
+            font-weight: 400;
+            letter-spacing: 0.3px;
+            transition: color 0.3s ease;
+        }
+
+        .contact-item:hover {
+            color: #1a1a1a;
+        }
+
+        .image-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-image {
+            width: 360px;
+            height: 450px;
+            background-color: #f8f8f8;
+            border: 1px solid #e8e8e8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 20px;
+            }
+
+            main {
+                grid-template-columns: 1fr;
+                gap: 60px;
+                text-align: center;
+            }
+
+            .name {
+                font-size: 36px;
+            }
+
+            .profile-image {
+                width: 270px;
+                height: 338px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">DOHYUN IM</div>
+        </header>
+
+        <main>
+            <div class="content">
+                <h1 class="name">David Dohyun Im</h1>
+                <p class="title">Entrepreneur / Engineer</p>
+                
+                <p class="description">
+                    I believe in God and the Bible. <br>
+                    My dream is to live a life that is full of purpose. <br>
+                    The only thing that matters is love. <br>
+                    <br>
+                    I also believe in the power of AI. <br>
+                    It will change how we work and live. <br>
+                    I decided to commit my whole life to AI. <br>
+                    <br>
+                    I believe it is now the best time to start a company. <br>
+                    My products have been used over by 100k users. <br>
+                    I will make something big in the intersection of AI and industry.
+                </p>
+
+                <div class="contact">
+                    <a href="mailto:dohyun11111m@gmail.com" class="contact-item">dohyun11111m@gmail.com</a>
+                    <!-- <a href="tel:+1234567890" class="contact-item">+1 (234) 567-890</a> -->
+                    <span class="contact-item">Seoul & Georgia</span>
+                </div>
+            </div>
+
+            <div class="image-section">
+                <div class="profile-image">
+                    <!-- Replace this placeholder with your actual image -->
+                    <img src="personal_photo4.jpg" alt="Dohyun Im">
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
